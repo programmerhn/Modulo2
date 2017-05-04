@@ -12,6 +12,11 @@
 		451B142D1EBAEF520082BE78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 451B142B1EBAEF520082BE78 /* Main.storyboard */; };
 		451B142F1EBAEF520082BE78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 451B142E1EBAEF520082BE78 /* Assets.xcassets */; };
 		451B14321EBAEF520082BE78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 451B14301EBAEF520082BE78 /* LaunchScreen.storyboard */; };
+		451B143A1EBAF4680082BE78 /* PizzaVar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451B14391EBAF4680082BE78 /* PizzaVar.swift */; };
+		451B143C1EBB8FB00082BE78 /* TipoMasaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451B143B1EBB8FB00082BE78 /* TipoMasaController.swift */; };
+		451B143E1EBB95E30082BE78 /* TipoQuesoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451B143D1EBB95E30082BE78 /* TipoQuesoController.swift */; };
+		451B14401EBBA7160082BE78 /* IngredientesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451B143F1EBBA7160082BE78 /* IngredientesController.swift */; };
+		451B14421EBBB21F0082BE78 /* ConfirmacionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451B14411EBBB21F0082BE78 /* ConfirmacionController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		451B142E1EBAEF520082BE78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		451B14311EBAEF520082BE78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		451B14331EBAEF520082BE78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		451B14391EBAF4680082BE78 /* PizzaVar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaVar.swift; sourceTree = "<group>"; };
+		451B143B1EBB8FB00082BE78 /* TipoMasaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoMasaController.swift; sourceTree = "<group>"; };
+		451B143D1EBB95E30082BE78 /* TipoQuesoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoQuesoController.swift; sourceTree = "<group>"; };
+		451B143F1EBBA7160082BE78 /* IngredientesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientesController.swift; sourceTree = "<group>"; };
+		451B14411EBBB21F0082BE78 /* ConfirmacionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmacionController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				451B142E1EBAEF520082BE78 /* Assets.xcassets */,
 				451B14301EBAEF520082BE78 /* LaunchScreen.storyboard */,
 				451B14331EBAEF520082BE78 /* Info.plist */,
+				451B14391EBAF4680082BE78 /* PizzaVar.swift */,
+				451B143B1EBB8FB00082BE78 /* TipoMasaController.swift */,
+				451B143D1EBB95E30082BE78 /* TipoQuesoController.swift */,
+				451B143F1EBBA7160082BE78 /* IngredientesController.swift */,
+				451B14411EBBB21F0082BE78 /* ConfirmacionController.swift */,
 			);
 			path = AppPizza;
 			sourceTree = "<group>";
@@ -136,8 +151,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				451B143A1EBAF4680082BE78 /* PizzaVar.swift in Sources */,
+				451B143C1EBB8FB00082BE78 /* TipoMasaController.swift in Sources */,
+				451B14401EBBA7160082BE78 /* IngredientesController.swift in Sources */,
 				451B142A1EBAEF520082BE78 /* ViewController.swift in Sources */,
+				451B14421EBBB21F0082BE78 /* ConfirmacionController.swift in Sources */,
 				451B14281EBAEF520082BE78 /* AppDelegate.swift in Sources */,
+				451B143E1EBB95E30082BE78 /* TipoQuesoController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
