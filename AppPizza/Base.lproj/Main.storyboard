@@ -1046,12 +1046,6 @@
                                     <constraint firstAttribute="height" constant="110" id="ejN-se-tel"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gracias por preferirnos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ncB-cQ-0nP">
-                                <rect key="frame" x="26" y="521" width="323" height="35"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eys-V5-L86">
                                 <rect key="frame" x="157" y="603" width="62" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -1063,13 +1057,19 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="Pld-26-w3Z"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gracias por preferirnos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ncB-cQ-0nP">
+                                <rect key="frame" x="26" y="522" width="323" height="35"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.91903442144393921" green="0.89042574167251587" blue="0.58341437578201294" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.088316775858402252" green="0.44462528824806213" blue="0.40469592809677124" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="ePS-vw-gjF" firstAttribute="top" secondItem="7qW-sT-JHp" secondAttribute="bottom" constant="162" id="2PY-CS-6Xf"/>
                             <constraint firstItem="ncB-cQ-0nP" firstAttribute="centerX" secondItem="eys-V5-L86" secondAttribute="centerX" id="2ev-Jw-CxV"/>
-                            <constraint firstItem="ncB-cQ-0nP" firstAttribute="top" secondItem="mQ3-1u-XpL" secondAttribute="bottom" constant="15" id="41L-k4-qbh"/>
+                            <constraint firstItem="ncB-cQ-0nP" firstAttribute="top" secondItem="mQ3-1u-XpL" secondAttribute="bottom" constant="16" id="41L-k4-qbh"/>
                             <constraint firstItem="ncB-cQ-0nP" firstAttribute="centerX" secondItem="Ce6-Eo-NIW" secondAttribute="centerX" id="FYB-JZ-vhW"/>
                             <constraint firstItem="eys-V5-L86" firstAttribute="centerX" secondItem="Ce6-Eo-NIW" secondAttribute="centerX" id="KZd-r0-4uD"/>
                             <constraint firstItem="ncB-cQ-0nP" firstAttribute="leading" secondItem="Ce6-Eo-NIW" secondAttribute="leadingMargin" constant="10" id="M6b-iu-9ZG"/>
@@ -1079,7 +1079,7 @@
                             <constraint firstItem="ePS-vw-gjF" firstAttribute="centerX" secondItem="mQ3-1u-XpL" secondAttribute="centerX" id="W7T-53-crq"/>
                             <constraint firstItem="nh8-3G-mIM" firstAttribute="top" secondItem="eys-V5-L86" secondAttribute="bottom" constant="34" id="aDa-WC-wi1"/>
                             <constraint firstAttribute="trailing" secondItem="ePS-vw-gjF" secondAttribute="trailing" id="egG-1p-mqs"/>
-                            <constraint firstItem="eys-V5-L86" firstAttribute="top" secondItem="ncB-cQ-0nP" secondAttribute="bottom" constant="47" id="fQJ-iD-CbO"/>
+                            <constraint firstItem="eys-V5-L86" firstAttribute="top" secondItem="ncB-cQ-0nP" secondAttribute="bottom" constant="46" id="fQJ-iD-CbO"/>
                             <constraint firstItem="mQ3-1u-XpL" firstAttribute="centerX" secondItem="ncB-cQ-0nP" secondAttribute="centerX" id="lNY-Iu-hAc"/>
                         </constraints>
                     </view>
